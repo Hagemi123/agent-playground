@@ -1,0 +1,16 @@
+# Credentials and secret configs
+.env
+*.env
+config.json
+secrets/
+
+# Storage & artifacts
+storage/cookies/*
+!storage/cookies/.gitkeep
+storage/captures/*
+!storage/captures/.gitkeep
+
+# Python cache & build dist
+__pycache__/
+*.pyc
+dist/
